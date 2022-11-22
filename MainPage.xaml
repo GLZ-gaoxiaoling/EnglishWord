@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiApp2.MainPage">
+
+
+    <ScrollView>
+        <FlexLayout Direction="Column"
+            Margin="20,20,20,10"
+            Wrap="NoWrap"
+            AlignItems="Center"
+            AlignContent="Start"
+            JustifyContent="SpaceEvenly">
+
+            <Label
+                Text="Pardon"
+                SemanticProperties.HeadingLevel="Level1"
+                SemanticProperties.Description="logo"
+                FontSize="100"
+                FontFamily="HWhupob"
+                />
+            <Label
+                Text="这是一个测试程序，这个软件是用来练手的，实现查词功能."
+                TextColor="Red"
+                SemanticProperties.HeadingLevel="Level1"
+                SemanticProperties.Description="a testing program"
+                FontSize="20"
+                FlexLayout.AlignSelf="Center"/>
+            
+
+            <Entry
+                x:Name="wordEntry"
+                Text="您可以在这里输入您需要查询的单词，一次一个."
+                SemanticProperties.HeadingLevel="Level1"
+                SemanticProperties.Description="input box"
+                WidthRequest="350" 
+                HeightRequest="100"
+                />
+
+            <Label
+                x:Name="wordLabel"
+                Text=" "
+                SemanticProperties.HeadingLevel="Level3"
+                SemanticProperties.Description="This label is to show the word"
+                FontSize="16"
+                FlexLayout.AlignSelf="Center"/>
+            
+            <Button
+                x:Name="CounterBtn"
+                Text="获取释义"
+                SemanticProperties.Hint="a button to get which word you want"
+                Clicked="OnCounterClicked"
+                FlexLayout.AlignSelf="Center" />
+        </FlexLayout>
+    </ScrollView>
+
+</ContentPage>

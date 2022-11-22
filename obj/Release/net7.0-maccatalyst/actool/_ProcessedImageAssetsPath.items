@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ImageAsset Include="C:\Users\tiany\source\repos\MauiApp2\MauiApp2\obj\Release\net7.0-maccatalyst\resizetizer\r\Assets.xcassets\book.appiconset\book20x20@2x.png" />
+    <ImageAsset Include="C:\Users\tiany\source\repos\MauiApp2\MauiApp2\obj\Release\net7.0-maccatalyst\resizetizer\r\Assets.xcassets\book.appiconset\book20x20@3x.png" />
+    <ImageAsset Include="C:\Users\tiany\source\repos\MauiApp2\MauiApp2\obj\Release\net7.0-maccatalyst\resizetizer\r\Assets.xcassets\book.appiconset\book29x29@2x.png" />
+    <ImageAsset Include="C:\Users\tiany\source\repos\MauiApp2\MauiApp2\obj\Release\net7.0-maccatalyst\resizetizer\r\Assets.xcassets\book.appiconset\book29x29@3x.png" />
+    <ImageAsset Include="C:\Users\tiany\source\repos\MauiApp2\MauiApp2\obj\Release\net7.0-maccatalyst\resizetizer\r\Assets.xcassets\book.appiconset\book40x40@2x.png" />
+    <ImageAsset Include="C:\Users\tiany\source\repos\MauiApp2\MauiApp2\obj\Release\net7.0-maccatalyst\resizetizer\r\Assets.xcassets\book.appiconset\book40x40@3x.png" />
+    <ImageAsset Include="C:\Users\tiany\source\repos\MauiApp2\MauiApp2\obj\Release\net7.0-maccatalyst\resizetizer\r\Assets.xcassets\book.appiconset\book60x60@2x.png" />
+    <ImageAsset Include="C:\Users\tiany\source\repos\MauiApp2\MauiApp2\obj\Release\net7.0-maccatalyst\resizetizer\r\Assets.xcassets\book.appiconset\book60x60@3x.png" />
+    <ImageAsset Include="C:\Users\tiany\source\repos\MauiApp2\MauiApp2\obj\Release\net7.0-maccatalyst\resizetizer\r\Assets.xcassets\book.appiconset\book76x76@2x.png" />
+    <ImageAsset Include="C:\Users\tiany\source\repos\MauiApp2\MauiApp2\obj\Release\net7.0-maccatalyst\resizetizer\r\Assets.xcassets\book.appiconset\book83.5x83.5@2x.png" />
+    <ImageAsset Include="C:\Users\tiany\source\repos\MauiApp2\MauiApp2\obj\Release\net7.0-maccatalyst\resizetizer\r\Assets.xcassets\book.appiconset\bookItunesArtwork.png" />
+    <ImageAsset Include="C:\Users\tiany\source\repos\MauiApp2\MauiApp2\obj\Release\net7.0-maccatalyst\resizetizer\r\Assets.xcassets\book.appiconset\Contents.json" />
+  </ItemGroup>
+</Project>
