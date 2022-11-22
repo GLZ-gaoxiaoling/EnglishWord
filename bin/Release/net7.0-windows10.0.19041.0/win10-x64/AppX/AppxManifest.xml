@@ -7,7 +7,7 @@
 
   有关程序包清单文件的详细信息，请参阅 http://go.microsoft.com/fwlink/?LinkID=241727
  -->
-  <Identity Name="f874a5de-1063-4f82-8fe1-dbb12986208d" Publisher="CN=tiany" Version="1.0.0.1" ProcessorArchitecture="x64" />
+  <Identity Name="f874a5de-1063-4f82-8fe1-dbb12986208d" Publisher="CN=tiany" Version="0.0.1.0" ProcessorArchitecture="x64" />
   <mp:PhoneIdentity PhoneProductId="809B8000-D1A3-483F-BAF5-9C22F7C31AF5" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
   <Properties>
     <DisplayName>EWS</DisplayName>

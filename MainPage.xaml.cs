@@ -36,7 +36,7 @@ public partial class MainPage : ContentPage
     private String toReadJson(String jsonStr)
     {
         toolClass? toolclass = JsonSerializer.Deserialize<toolClass>(jsonStr);//反序列化json
-        return $"单词:{toolclass?.word}\n中文释义:{toolclass?.mean_cn}\n英文释义:{toolclass?.mean_en}\n例子:{toolclass?.sentence}\n例子翻译:{toolclass.sentence_trans}";
+        return $"单词:{toolclass?.word}\n音标:{toolclass?.accent}\n中文释义:{toolclass?.mean_cn}\n英文释义:{toolclass?.mean_en}\n例子:{toolclass?.sentence}\n例子翻译:{toolclass.sentence_trans}";
     }
 }
 public class toolClass
@@ -46,5 +46,6 @@ public class toolClass
     public string? mean_en { get; set; }
     public string? sentence { get; set; }
     public string? sentence_trans { get; set; }
+    public string? accent { get; set; }
 }
 
