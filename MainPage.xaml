@@ -26,15 +26,19 @@
                 SemanticProperties.Description="a testing program"
                 FontSize="20"
                 FlexLayout.AlignSelf="Center"/>
-            
+
 
             <Entry
                 x:Name="wordEntry"
-                Text="您可以在这里输入您需要查询的单词，一次一个."
+                ClearButtonVisibility="WhileEditing"
+                Text=""
+                Placeholder="您可以在这里输入您需要查询的单词，一次一个."
+                PlaceholderColor="#888888"
                 SemanticProperties.HeadingLevel="Level1"
                 SemanticProperties.Description="input box"
                 WidthRequest="350" 
                 HeightRequest="100"
+                Completed="OnEntryCompleted"
                 />
 
             <Label

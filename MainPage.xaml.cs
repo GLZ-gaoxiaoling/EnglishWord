@@ -10,7 +10,10 @@ public partial class MainPage : ContentPage
     {
         InitializeComponent();
     }
-
+    void OnEntryCompleted(object sender, EventArgs e)
+    {
+        OnCounterClicked(sender,e);
+    }
     private void OnCounterClicked(object sender, EventArgs e)
     {
         String wordLink = $"https://cdn.jsdelivr.net/gh/lyc8503/baicizhan-word-meaning-API/data/words/{wordEntry.Text}.json";
