@@ -30,13 +30,13 @@
     <AppXManifest Include="C:\Users\tiany\source\repos\MauiApp2\MauiApp2\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-11-25T13:29:55.141</Modified>
+      <Modified>2022-11-25T13:56:03.577</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\tiany\source\repos\MauiApp2\MauiApp2\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2022-11-25T13:29:54.701</Modified>
+      <Modified>2022-11-25T13:56:02.954</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\tiany\source\repos\MauiApp2\MauiApp2\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\EWS_maui.runtimeconfig.json">
       <PackagePath>EWS_maui.runtimeconfig.json</PackagePath>
@@ -44,11 +44,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\tiany\source\repos\MauiApp2\MauiApp2\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\EWS_maui.dll">
       <PackagePath>EWS_maui.dll</PackagePath>
-      <Modified>2022-11-25T13:29:52.860</Modified>
+      <Modified>2022-11-25T13:56:01.811</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\tiany\source\repos\MauiApp2\MauiApp2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>EWS_maui.exe</PackagePath>
-      <Modified>2022-11-25T13:29:53.878</Modified>
+      <Modified>2022-11-25T13:56:01.928</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\tiany\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.0\runtimes\win-x64\lib\net7.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -920,7 +920,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\tiany\source\repos\MauiApp2\MauiApp2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\EWS_maui.deps.json">
       <PackagePath>EWS_maui.deps.json</PackagePath>
-      <Modified>2022-11-25T13:29:55.010</Modified>
+      <Modified>2022-11-25T13:56:03.382</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files\dotnet\packs\Microsoft.Maui.Controls.Ref.win\7.0.49\ref\net7.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.pri">
       <PackagePath>Microsoft.Maui.Controls.Compatibility.pri</PackagePath>
