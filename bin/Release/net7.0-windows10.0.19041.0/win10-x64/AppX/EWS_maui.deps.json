@@ -18,6 +18,9 @@
           "Microsoft.Maui.Graphics.Win2D.WinUI.Desktop": "7.0.49",
           "Microsoft.Windows.SDK.BuildTools": "10.0.22621.1",
           "Microsoft.WindowsAppSDK": "1.1.5",
+          "Plugin.Maui.Audio": "0.1.0-preview2",
+          "Plugin.MauiAudio": "1.2.1",
+          "System.Runtime.WindowsRuntime": "4.7.0",
           "runtimepack.Microsoft.NETCore.App.Runtime.win-x64": "7.0.0",
           "runtimepack.Microsoft.Maui.Core.Runtime.win": "7.0.49",
           "runtimepack.Microsoft.Maui.Controls.Runtime.win": "7.0.49",
@@ -926,6 +929,7 @@
           }
         }
       },
+      "Microsoft.NETCore.Platforms/3.1.0": {},
       "Microsoft.Windows.SDK.BuildTools/10.0.22621.1": {},
       "Microsoft.WindowsAppSDK/1.1.5": {
         "dependencies": {
@@ -980,6 +984,33 @@
         "native": {
           "runtimes/win10-x64/native/Microsoft.WindowsAppRuntime.Bootstrap.dll": {
             "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "Plugin.Maui.Audio/0.1.0-preview2": {
+        "runtime": {
+          "lib/net6.0-windows10.0.19041/Plugin.Maui.Audio.dll": {
+            "assemblyVersion": "0.1.0.0",
+            "fileVersion": "0.1.0.0"
+          }
+        }
+      },
+      "Plugin.MauiAudio/1.2.1": {
+        "runtime": {
+          "lib/net6.0-windows10.0.19041/MauiAudio.dll": {
+            "assemblyVersion": "1.2.1.0",
+            "fileVersion": "1.2.1.0"
+          }
+        }
+      },
+      "System.Runtime.WindowsRuntime/4.7.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "3.1.0"
+        },
+        "runtime": {
+          "runtimes/win/lib/netcoreapp3.0/System.Runtime.WindowsRuntime.dll": {
+            "assemblyVersion": "4.0.15.0",
+            "fileVersion": "4.700.19.56404"
           }
         }
       }
@@ -1100,6 +1131,13 @@
       "path": "microsoft.maui.graphics.win2d.winui.desktop/7.0.49",
       "hashPath": "microsoft.maui.graphics.win2d.winui.desktop.7.0.49.nupkg.sha512"
     },
+    "Microsoft.NETCore.Platforms/3.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-z7aeg8oHln2CuNulfhiLYxCVMPEwBl3rzicjvIX+4sUuCwvXw5oXQEtbiU2c0z4qYL5L3Kmx0mMA/+t/SbY67w==",
+      "path": "microsoft.netcore.platforms/3.1.0",
+      "hashPath": "microsoft.netcore.platforms.3.1.0.nupkg.sha512"
+    },
     "Microsoft.Windows.SDK.BuildTools/10.0.22621.1": {
       "type": "package",
       "serviceable": true,
@@ -1113,6 +1151,27 @@
       "sha512": "sha512-gGeFfN1AQiIo6DaPe4KkOvlx/EDjwq/Lc+Q3EzX+U4x/hsiZkls/XqFpNTjELyYgsxl8g0SiPzguJ7A1dlhC6Q==",
       "path": "microsoft.windowsappsdk/1.1.5",
       "hashPath": "microsoft.windowsappsdk.1.1.5.nupkg.sha512"
+    },
+    "Plugin.Maui.Audio/0.1.0-preview2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-jBMLTKENd+Dgx9gg1ZNl8k8RA3BPhyL9gnjOc/WVhbCbbERG0fNWwmOrGv/XwRtnBHmc9MDUBJKDd/0EuHfbrA==",
+      "path": "plugin.maui.audio/0.1.0-preview2",
+      "hashPath": "plugin.maui.audio.0.1.0-preview2.nupkg.sha512"
+    },
+    "Plugin.MauiAudio/1.2.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-VYIj9bi5FsFvJlwSt6+/KdyjIVGdi0XRmFJ+FKL93sjgdAX+t8MCTMtGFhidIW+gH1HkSBeZJ4bABTMi3VUzOA==",
+      "path": "plugin.mauiaudio/1.2.1",
+      "hashPath": "plugin.mauiaudio.1.2.1.nupkg.sha512"
+    },
+    "System.Runtime.WindowsRuntime/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-RQxUkf37fp7MSWbOfKRjUjyudyfZb2u79YY5i1s+d7vuD80A7kmr2YfefO0JprQUhanxSm8bhXigCVfX2kEh+w==",
+      "path": "system.runtime.windowsruntime/4.7.0",
+      "hashPath": "system.runtime.windowsruntime.4.7.0.nupkg.sha512"
     }
   },
   "runtimes": {

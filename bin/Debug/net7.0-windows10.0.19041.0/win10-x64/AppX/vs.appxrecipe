@@ -9,7 +9,7 @@
     <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
     <PackageArchitecture>x64</PackageArchitecture>
     <PackageIdentityName>f874a5de-1063-4f82-8fe1-dbb12986208d</PackageIdentityName>
-    <PackageIdentityPublisher>CN=User Name</PackageIdentityPublisher>
+    <PackageIdentityPublisher>CN=tiany</PackageIdentityPublisher>
     <IntermediateOutputPath>C:\Users\tiany\source\repos\MauiApp2\MauiApp2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\</IntermediateOutputPath>
     <RemoteDeploymentType>CopyToDevice</RemoteDeploymentType>
     <PackageRegistrationPath>
@@ -19,36 +19,36 @@
     <WindowsSdkPath>
     </WindowsSdkPath>
     <LayoutDir>C:\Users\tiany\source\repos\MauiApp2\MauiApp2\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppX</LayoutDir>
-    <RegisteredManifestChecksum>B38BD17B0536CCE1F61F73B9496B9A24D7AEC918D5E75B05BE58E65CA0987805</RegisteredManifestChecksum>
-    <RegisteredPackageMoniker>f874a5de-1063-4f82-8fe1-dbb12986208d_1.0.0.1_x64__9zz4h110yvjzm</RegisteredPackageMoniker>
-    <RegisteredUserModeAppID>f874a5de-1063-4f82-8fe1-dbb12986208d_9zz4h110yvjzm!App</RegisteredUserModeAppID>
+    <RegisteredManifestChecksum>40BEA5FE69F3209EE52A798F022F0AC929045FF42D6B779E83C7A15FA0AE0EA5</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>f874a5de-1063-4f82-8fe1-dbb12986208d_1.0.2.0_x64__jhxqaf4ngdeqa</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>f874a5de-1063-4f82-8fe1-dbb12986208d_jhxqaf4ngdeqa!App</RegisteredUserModeAppID>
     <RegisteredPackageID>f874a5de-1063-4f82-8fe1-dbb12986208d</RegisteredPackageID>
-    <RegisteredPackagePublisher>CN=User Name</RegisteredPackagePublisher>
-    <RegisteredVersion>1.0.0.1</RegisteredVersion>
+    <RegisteredPackagePublisher>CN=tiany</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.2.0</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
     <AppXManifest Include="C:\Users\tiany\source\repos\MauiApp2\MauiApp2\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-11-22T07:54:27.323</Modified>
+      <Modified>2022-11-25T13:29:55.141</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\tiany\source\repos\MauiApp2\MauiApp2\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2022-11-22T07:54:26.802</Modified>
+      <Modified>2022-11-25T13:29:54.701</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\tiany\source\repos\MauiApp2\MauiApp2\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\MauiApp2.runtimeconfig.json">
-      <PackagePath>MauiApp2.runtimeconfig.json</PackagePath>
-      <Modified>2022-11-21T08:54:55.083</Modified>
+    <AppxPackagedFile Include="C:\Users\tiany\source\repos\MauiApp2\MauiApp2\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\EWS_maui.runtimeconfig.json">
+      <PackagePath>EWS_maui.runtimeconfig.json</PackagePath>
+      <Modified>2022-11-25T13:25:07.589</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\tiany\source\repos\MauiApp2\MauiApp2\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\MauiApp2.dll">
-      <PackagePath>MauiApp2.dll</PackagePath>
-      <Modified>2022-11-22T07:54:25.553</Modified>
+    <AppxPackagedFile Include="C:\Users\tiany\source\repos\MauiApp2\MauiApp2\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\EWS_maui.dll">
+      <PackagePath>EWS_maui.dll</PackagePath>
+      <Modified>2022-11-25T13:29:52.860</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\tiany\source\repos\MauiApp2\MauiApp2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\apphost.exe">
-      <PackagePath>MauiApp2.exe</PackagePath>
-      <Modified>2022-11-22T07:54:25.819</Modified>
+      <PackagePath>EWS_maui.exe</PackagePath>
+      <Modified>2022-11-25T13:29:53.878</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\tiany\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.0\runtimes\win-x64\lib\net7.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -898,6 +898,18 @@
       <PackagePath>Microsoft.WindowsAppRuntime.Bootstrap.Net.dll</PackagePath>
       <Modified>2022-09-07T21:54:34.000</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tiany\.nuget\packages\plugin.maui.audio\0.1.0-preview2\lib\net6.0-windows10.0.19041\Plugin.Maui.Audio.dll">
+      <PackagePath>Plugin.Maui.Audio.dll</PackagePath>
+      <Modified>2022-11-03T13:52:46.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tiany\.nuget\packages\plugin.mauiaudio\1.2.1\lib\net6.0-windows10.0.19041\MauiAudio.dll">
+      <PackagePath>MauiAudio.dll</PackagePath>
+      <Modified>2022-11-15T10:34:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tiany\.nuget\packages\system.runtime.windowsruntime\4.7.0\runtimes\win\lib\netcoreapp3.0\System.Runtime.WindowsRuntime.dll">
+      <PackagePath>System.Runtime.WindowsRuntime.dll</PackagePath>
+      <Modified>2019-11-15T08:54:26.000</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\tiany\.nuget\packages\microsoft.graphics.win2d\1.0.4\runtimes\win10-x64\native\Microsoft.Graphics.Canvas.dll">
       <PackagePath>Microsoft.Graphics.Canvas.dll</PackagePath>
       <Modified>2022-10-04T20:41:34.000</Modified>
@@ -906,9 +918,9 @@
       <PackagePath>Microsoft.WindowsAppRuntime.Bootstrap.dll</PackagePath>
       <Modified>2022-09-07T21:54:36.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\tiany\source\repos\MauiApp2\MauiApp2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\MauiApp2.deps.json">
-      <PackagePath>MauiApp2.deps.json</PackagePath>
-      <Modified>2022-11-22T07:54:27.170</Modified>
+    <AppxPackagedFile Include="C:\Users\tiany\source\repos\MauiApp2\MauiApp2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\EWS_maui.deps.json">
+      <PackagePath>EWS_maui.deps.json</PackagePath>
+      <Modified>2022-11-25T13:29:55.010</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files\dotnet\packs\Microsoft.Maui.Controls.Ref.win\7.0.49\ref\net7.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.pri">
       <PackagePath>Microsoft.Maui.Controls.Compatibility.pri</PackagePath>
@@ -926,25 +938,33 @@
       <PackagePath>AboutAssets.txt</PackagePath>
       <Modified>2022-11-21T08:54:27.558</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tiany\source\repos\MauiApp2\MauiApp2\Resources\Raw\dictvoice.mp3">
+      <PackagePath>dictvoice.mp3</PackagePath>
+      <Modified>2022-11-25T13:14:51.069</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\tiany\source\repos\MauiApp2\MauiApp2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
       <PackagePath>splashSplashScreen.scale-100.png</PackagePath>
-      <Modified>2022-11-21T08:54:52.576</Modified>
+      <Modified>2022-11-22T08:59:41.640</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\tiany\source\repos\MauiApp2\MauiApp2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-125.png">
       <PackagePath>splashSplashScreen.scale-125.png</PackagePath>
-      <Modified>2022-11-21T08:54:52.592</Modified>
+      <Modified>2022-11-22T08:59:41.666</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\tiany\source\repos\MauiApp2\MauiApp2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-150.png">
       <PackagePath>splashSplashScreen.scale-150.png</PackagePath>
-      <Modified>2022-11-21T08:54:52.615</Modified>
+      <Modified>2022-11-22T08:59:41.689</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\tiany\source\repos\MauiApp2\MauiApp2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-200.png">
       <PackagePath>splashSplashScreen.scale-200.png</PackagePath>
-      <Modified>2022-11-21T08:54:52.647</Modified>
+      <Modified>2022-11-22T08:59:41.718</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\tiany\source\repos\MauiApp2\MauiApp2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png">
       <PackagePath>splashSplashScreen.scale-400.png</PackagePath>
-      <Modified>2022-11-21T08:54:52.774</Modified>
+      <Modified>2022-11-22T08:59:41.845</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tiany\source\repos\MauiApp2\MauiApp2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\f\HWhupob.ttf">
+      <PackagePath>HWhupob.ttf</PackagePath>
+      <Modified>2022-11-22T08:23:35.277</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\tiany\source\repos\MauiApp2\MauiApp2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf">
       <PackagePath>OpenSans-Regular.ttf</PackagePath>
@@ -954,233 +974,209 @@
       <PackagePath>OpenSans-Semibold.ttf</PackagePath>
       <Modified>2022-11-21T08:54:27.556</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\tiany\source\repos\MauiApp2\MauiApp2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
-      <PackagePath>appicon.ico</PackagePath>
-      <Modified>2022-11-22T06:56:12.768</Modified>
+    <AppxPackagedFile Include="C:\Users\tiany\source\repos\MauiApp2\MauiApp2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\book.ico">
+      <PackagePath>book.ico</PackagePath>
+      <Modified>2022-11-22T08:59:41.876</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\tiany\source\repos\MauiApp2\MauiApp2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
-      <PackagePath>appiconLargeTile.scale-100.png</PackagePath>
-      <Modified>2022-11-22T06:56:12.975</Modified>
+    <AppxPackagedFile Include="C:\Users\tiany\source\repos\MauiApp2\MauiApp2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\bookLargeTile.scale-100.png">
+      <PackagePath>bookLargeTile.scale-100.png</PackagePath>
+      <Modified>2022-11-22T08:59:42.044</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\tiany\source\repos\MauiApp2\MauiApp2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
-      <PackagePath>appiconLargeTile.scale-125.png</PackagePath>
-      <Modified>2022-11-22T06:56:12.985</Modified>
+    <AppxPackagedFile Include="C:\Users\tiany\source\repos\MauiApp2\MauiApp2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\bookLargeTile.scale-125.png">
+      <PackagePath>bookLargeTile.scale-125.png</PackagePath>
+      <Modified>2022-11-22T08:59:42.053</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\tiany\source\repos\MauiApp2\MauiApp2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
-      <PackagePath>appiconLargeTile.scale-150.png</PackagePath>
-      <Modified>2022-11-22T06:56:12.994</Modified>
+    <AppxPackagedFile Include="C:\Users\tiany\source\repos\MauiApp2\MauiApp2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\bookLargeTile.scale-150.png">
+      <PackagePath>bookLargeTile.scale-150.png</PackagePath>
+      <Modified>2022-11-22T08:59:42.064</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\tiany\source\repos\MauiApp2\MauiApp2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
-      <PackagePath>appiconLargeTile.scale-200.png</PackagePath>
-      <Modified>2022-11-22T06:56:13.010</Modified>
+    <AppxPackagedFile Include="C:\Users\tiany\source\repos\MauiApp2\MauiApp2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\bookLargeTile.scale-200.png">
+      <PackagePath>bookLargeTile.scale-200.png</PackagePath>
+      <Modified>2022-11-22T08:59:42.081</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\tiany\source\repos\MauiApp2\MauiApp2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
-      <PackagePath>appiconLargeTile.scale-400.png</PackagePath>
-      <Modified>2022-11-22T06:56:13.071</Modified>
+    <AppxPackagedFile Include="C:\Users\tiany\source\repos\MauiApp2\MauiApp2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\bookLargeTile.scale-400.png">
+      <PackagePath>bookLargeTile.scale-400.png</PackagePath>
+      <Modified>2022-11-22T08:59:42.150</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\tiany\source\repos\MauiApp2\MauiApp2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
-      <PackagePath>appiconLogo.altform-lightunplated_targetsize-16.png</PackagePath>
-      <Modified>2022-11-22T06:56:12.823</Modified>
+    <AppxPackagedFile Include="C:\Users\tiany\source\repos\MauiApp2\MauiApp2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\bookLogo.altform-lightunplated_targetsize-16.png">
+      <PackagePath>bookLogo.altform-lightunplated_targetsize-16.png</PackagePath>
+      <Modified>2022-11-22T08:59:41.917</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\tiany\source\repos\MauiApp2\MauiApp2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
-      <PackagePath>appiconLogo.altform-lightunplated_targetsize-24.png</PackagePath>
-      <Modified>2022-11-22T06:56:12.825</Modified>
+    <AppxPackagedFile Include="C:\Users\tiany\source\repos\MauiApp2\MauiApp2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\bookLogo.altform-lightunplated_targetsize-24.png">
+      <PackagePath>bookLogo.altform-lightunplated_targetsize-24.png</PackagePath>
+      <Modified>2022-11-22T08:59:41.918</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\tiany\source\repos\MauiApp2\MauiApp2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
-      <PackagePath>appiconLogo.altform-lightunplated_targetsize-256.png</PackagePath>
-      <Modified>2022-11-22T06:56:12.835</Modified>
+    <AppxPackagedFile Include="C:\Users\tiany\source\repos\MauiApp2\MauiApp2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\bookLogo.altform-lightunplated_targetsize-256.png">
+      <PackagePath>bookLogo.altform-lightunplated_targetsize-256.png</PackagePath>
+      <Modified>2022-11-22T08:59:41.924</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\tiany\source\repos\MauiApp2\MauiApp2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
-      <PackagePath>appiconLogo.altform-lightunplated_targetsize-32.png</PackagePath>
-      <Modified>2022-11-22T06:56:12.827</Modified>
+    <AppxPackagedFile Include="C:\Users\tiany\source\repos\MauiApp2\MauiApp2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\bookLogo.altform-lightunplated_targetsize-32.png">
+      <PackagePath>bookLogo.altform-lightunplated_targetsize-32.png</PackagePath>
+      <Modified>2022-11-22T08:59:41.919</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\tiany\source\repos\MauiApp2\MauiApp2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
-      <PackagePath>appiconLogo.altform-lightunplated_targetsize-48.png</PackagePath>
-      <Modified>2022-11-22T06:56:12.830</Modified>
+    <AppxPackagedFile Include="C:\Users\tiany\source\repos\MauiApp2\MauiApp2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\bookLogo.altform-lightunplated_targetsize-48.png">
+      <PackagePath>bookLogo.altform-lightunplated_targetsize-48.png</PackagePath>
+      <Modified>2022-11-22T08:59:41.920</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\tiany\source\repos\MauiApp2\MauiApp2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
-      <PackagePath>appiconLogo.altform-unplated_targetsize-16.png</PackagePath>
-      <Modified>2022-11-22T06:56:12.806</Modified>
+    <AppxPackagedFile Include="C:\Users\tiany\source\repos\MauiApp2\MauiApp2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\bookLogo.altform-unplated_targetsize-16.png">
+      <PackagePath>bookLogo.altform-unplated_targetsize-16.png</PackagePath>
+      <Modified>2022-11-22T08:59:41.908</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\tiany\source\repos\MauiApp2\MauiApp2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
-      <PackagePath>appiconLogo.altform-unplated_targetsize-24.png</PackagePath>
-      <Modified>2022-11-22T06:56:12.808</Modified>
+    <AppxPackagedFile Include="C:\Users\tiany\source\repos\MauiApp2\MauiApp2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\bookLogo.altform-unplated_targetsize-24.png">
+      <PackagePath>bookLogo.altform-unplated_targetsize-24.png</PackagePath>
+      <Modified>2022-11-22T08:59:41.908</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\tiany\source\repos\MauiApp2\MauiApp2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
-      <PackagePath>appiconLogo.altform-unplated_targetsize-256.png</PackagePath>
-      <Modified>2022-11-22T06:56:12.819</Modified>
+    <AppxPackagedFile Include="C:\Users\tiany\source\repos\MauiApp2\MauiApp2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\bookLogo.altform-unplated_targetsize-256.png">
+      <PackagePath>bookLogo.altform-unplated_targetsize-256.png</PackagePath>
+      <Modified>2022-11-22T08:59:41.916</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\tiany\source\repos\MauiApp2\MauiApp2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
-      <PackagePath>appiconLogo.altform-unplated_targetsize-32.png</PackagePath>
-      <Modified>2022-11-22T06:56:12.811</Modified>
+    <AppxPackagedFile Include="C:\Users\tiany\source\repos\MauiApp2\MauiApp2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\bookLogo.altform-unplated_targetsize-32.png">
+      <PackagePath>bookLogo.altform-unplated_targetsize-32.png</PackagePath>
+      <Modified>2022-11-22T08:59:41.910</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\tiany\source\repos\MauiApp2\MauiApp2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
-      <PackagePath>appiconLogo.altform-unplated_targetsize-48.png</PackagePath>
-      <Modified>2022-11-22T06:56:12.814</Modified>
+    <AppxPackagedFile Include="C:\Users\tiany\source\repos\MauiApp2\MauiApp2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\bookLogo.altform-unplated_targetsize-48.png">
+      <PackagePath>bookLogo.altform-unplated_targetsize-48.png</PackagePath>
+      <Modified>2022-11-22T08:59:41.911</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\tiany\source\repos\MauiApp2\MauiApp2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
-      <PackagePath>appiconLogo.scale-100.png</PackagePath>
-      <Modified>2022-11-22T06:56:12.776</Modified>
+    <AppxPackagedFile Include="C:\Users\tiany\source\repos\MauiApp2\MauiApp2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\bookLogo.scale-100.png">
+      <PackagePath>bookLogo.scale-100.png</PackagePath>
+      <Modified>2022-11-22T08:59:41.891</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\tiany\source\repos\MauiApp2\MauiApp2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
-      <PackagePath>appiconLogo.scale-125.png</PackagePath>
-      <Modified>2022-11-22T06:56:12.778</Modified>
+    <AppxPackagedFile Include="C:\Users\tiany\source\repos\MauiApp2\MauiApp2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\bookLogo.scale-125.png">
+      <PackagePath>bookLogo.scale-125.png</PackagePath>
+      <Modified>2022-11-22T08:59:41.892</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\tiany\source\repos\MauiApp2\MauiApp2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
-      <PackagePath>appiconLogo.scale-150.png</PackagePath>
-      <Modified>2022-11-22T06:56:12.780</Modified>
+    <AppxPackagedFile Include="C:\Users\tiany\source\repos\MauiApp2\MauiApp2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\bookLogo.scale-150.png">
+      <PackagePath>bookLogo.scale-150.png</PackagePath>
+      <Modified>2022-11-22T08:59:41.893</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\tiany\source\repos\MauiApp2\MauiApp2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
-      <PackagePath>appiconLogo.scale-200.png</PackagePath>
-      <Modified>2022-11-22T06:56:12.783</Modified>
+    <AppxPackagedFile Include="C:\Users\tiany\source\repos\MauiApp2\MauiApp2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\bookLogo.scale-200.png">
+      <PackagePath>bookLogo.scale-200.png</PackagePath>
+      <Modified>2022-11-22T08:59:41.895</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\tiany\source\repos\MauiApp2\MauiApp2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
-      <PackagePath>appiconLogo.scale-400.png</PackagePath>
-      <Modified>2022-11-22T06:56:12.787</Modified>
+    <AppxPackagedFile Include="C:\Users\tiany\source\repos\MauiApp2\MauiApp2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\bookLogo.scale-400.png">
+      <PackagePath>bookLogo.scale-400.png</PackagePath>
+      <Modified>2022-11-22T08:59:41.898</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\tiany\source\repos\MauiApp2\MauiApp2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
-      <PackagePath>appiconLogo.targetsize-16.png</PackagePath>
-      <Modified>2022-11-22T06:56:12.790</Modified>
+    <AppxPackagedFile Include="C:\Users\tiany\source\repos\MauiApp2\MauiApp2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\bookLogo.targetsize-16.png">
+      <PackagePath>bookLogo.targetsize-16.png</PackagePath>
+      <Modified>2022-11-22T08:59:41.899</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\tiany\source\repos\MauiApp2\MauiApp2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
-      <PackagePath>appiconLogo.targetsize-24.png</PackagePath>
-      <Modified>2022-11-22T06:56:12.793</Modified>
+    <AppxPackagedFile Include="C:\Users\tiany\source\repos\MauiApp2\MauiApp2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\bookLogo.targetsize-24.png">
+      <PackagePath>bookLogo.targetsize-24.png</PackagePath>
+      <Modified>2022-11-22T08:59:41.900</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\tiany\source\repos\MauiApp2\MauiApp2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
-      <PackagePath>appiconLogo.targetsize-256.png</PackagePath>
-      <Modified>2022-11-22T06:56:12.803</Modified>
+    <AppxPackagedFile Include="C:\Users\tiany\source\repos\MauiApp2\MauiApp2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\bookLogo.targetsize-256.png">
+      <PackagePath>bookLogo.targetsize-256.png</PackagePath>
+      <Modified>2022-11-22T08:59:41.907</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\tiany\source\repos\MauiApp2\MauiApp2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
-      <PackagePath>appiconLogo.targetsize-32.png</PackagePath>
-      <Modified>2022-11-22T06:56:12.795</Modified>
+    <AppxPackagedFile Include="C:\Users\tiany\source\repos\MauiApp2\MauiApp2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\bookLogo.targetsize-32.png">
+      <PackagePath>bookLogo.targetsize-32.png</PackagePath>
+      <Modified>2022-11-22T08:59:41.902</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\tiany\source\repos\MauiApp2\MauiApp2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
-      <PackagePath>appiconLogo.targetsize-48.png</PackagePath>
-      <Modified>2022-11-22T06:56:12.797</Modified>
+    <AppxPackagedFile Include="C:\Users\tiany\source\repos\MauiApp2\MauiApp2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\bookLogo.targetsize-48.png">
+      <PackagePath>bookLogo.targetsize-48.png</PackagePath>
+      <Modified>2022-11-22T08:59:41.903</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\tiany\source\repos\MauiApp2\MauiApp2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
-      <PackagePath>appiconMediumTile.scale-100.png</PackagePath>
-      <Modified>2022-11-22T06:56:12.877</Modified>
+    <AppxPackagedFile Include="C:\Users\tiany\source\repos\MauiApp2\MauiApp2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\bookMediumTile.scale-100.png">
+      <PackagePath>bookMediumTile.scale-100.png</PackagePath>
+      <Modified>2022-11-22T08:59:41.950</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\tiany\source\repos\MauiApp2\MauiApp2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
-      <PackagePath>appiconMediumTile.scale-125.png</PackagePath>
-      <Modified>2022-11-22T06:56:12.881</Modified>
+    <AppxPackagedFile Include="C:\Users\tiany\source\repos\MauiApp2\MauiApp2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\bookMediumTile.scale-125.png">
+      <PackagePath>bookMediumTile.scale-125.png</PackagePath>
+      <Modified>2022-11-22T08:59:41.953</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\tiany\source\repos\MauiApp2\MauiApp2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
-      <PackagePath>appiconMediumTile.scale-150.png</PackagePath>
-      <Modified>2022-11-22T06:56:12.885</Modified>
+    <AppxPackagedFile Include="C:\Users\tiany\source\repos\MauiApp2\MauiApp2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\bookMediumTile.scale-150.png">
+      <PackagePath>bookMediumTile.scale-150.png</PackagePath>
+      <Modified>2022-11-22T08:59:41.957</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\tiany\source\repos\MauiApp2\MauiApp2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
-      <PackagePath>appiconMediumTile.scale-200.png</PackagePath>
-      <Modified>2022-11-22T06:56:12.893</Modified>
+    <AppxPackagedFile Include="C:\Users\tiany\source\repos\MauiApp2\MauiApp2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\bookMediumTile.scale-200.png">
+      <PackagePath>bookMediumTile.scale-200.png</PackagePath>
+      <Modified>2022-11-22T08:59:41.963</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\tiany\source\repos\MauiApp2\MauiApp2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
-      <PackagePath>appiconMediumTile.scale-400.png</PackagePath>
-      <Modified>2022-11-22T06:56:12.909</Modified>
+    <AppxPackagedFile Include="C:\Users\tiany\source\repos\MauiApp2\MauiApp2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\bookMediumTile.scale-400.png">
+      <PackagePath>bookMediumTile.scale-400.png</PackagePath>
+      <Modified>2022-11-22T08:59:41.982</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\tiany\source\repos\MauiApp2\MauiApp2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
-      <PackagePath>appiconSmallTile.scale-100.png</PackagePath>
-      <Modified>2022-11-22T06:56:12.856</Modified>
+    <AppxPackagedFile Include="C:\Users\tiany\source\repos\MauiApp2\MauiApp2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\bookSmallTile.scale-100.png">
+      <PackagePath>bookSmallTile.scale-100.png</PackagePath>
+      <Modified>2022-11-22T08:59:41.934</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\tiany\source\repos\MauiApp2\MauiApp2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
-      <PackagePath>appiconSmallTile.scale-125.png</PackagePath>
-      <Modified>2022-11-22T06:56:12.858</Modified>
+    <AppxPackagedFile Include="C:\Users\tiany\source\repos\MauiApp2\MauiApp2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\bookSmallTile.scale-125.png">
+      <PackagePath>bookSmallTile.scale-125.png</PackagePath>
+      <Modified>2022-11-22T08:59:41.935</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\tiany\source\repos\MauiApp2\MauiApp2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
-      <PackagePath>appiconSmallTile.scale-150.png</PackagePath>
-      <Modified>2022-11-22T06:56:12.862</Modified>
+    <AppxPackagedFile Include="C:\Users\tiany\source\repos\MauiApp2\MauiApp2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\bookSmallTile.scale-150.png">
+      <PackagePath>bookSmallTile.scale-150.png</PackagePath>
+      <Modified>2022-11-22T08:59:41.937</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\tiany\source\repos\MauiApp2\MauiApp2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
-      <PackagePath>appiconSmallTile.scale-200.png</PackagePath>
-      <Modified>2022-11-22T06:56:12.865</Modified>
+    <AppxPackagedFile Include="C:\Users\tiany\source\repos\MauiApp2\MauiApp2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\bookSmallTile.scale-200.png">
+      <PackagePath>bookSmallTile.scale-200.png</PackagePath>
+      <Modified>2022-11-22T08:59:41.940</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\tiany\source\repos\MauiApp2\MauiApp2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
-      <PackagePath>appiconSmallTile.scale-400.png</PackagePath>
-      <Modified>2022-11-22T06:56:12.873</Modified>
+    <AppxPackagedFile Include="C:\Users\tiany\source\repos\MauiApp2\MauiApp2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\bookSmallTile.scale-400.png">
+      <PackagePath>bookSmallTile.scale-400.png</PackagePath>
+      <Modified>2022-11-22T08:59:41.946</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\tiany\source\repos\MauiApp2\MauiApp2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
-      <PackagePath>appiconStoreLogo.scale-100.png</PackagePath>
-      <Modified>2022-11-22T06:56:12.838</Modified>
+    <AppxPackagedFile Include="C:\Users\tiany\source\repos\MauiApp2\MauiApp2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\bookStoreLogo.scale-100.png">
+      <PackagePath>bookStoreLogo.scale-100.png</PackagePath>
+      <Modified>2022-11-22T08:59:41.925</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\tiany\source\repos\MauiApp2\MauiApp2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
-      <PackagePath>appiconStoreLogo.scale-125.png</PackagePath>
-      <Modified>2022-11-22T06:56:12.842</Modified>
+    <AppxPackagedFile Include="C:\Users\tiany\source\repos\MauiApp2\MauiApp2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\bookStoreLogo.scale-125.png">
+      <PackagePath>bookStoreLogo.scale-125.png</PackagePath>
+      <Modified>2022-11-22T08:59:41.927</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\tiany\source\repos\MauiApp2\MauiApp2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
-      <PackagePath>appiconStoreLogo.scale-150.png</PackagePath>
-      <Modified>2022-11-22T06:56:12.844</Modified>
+    <AppxPackagedFile Include="C:\Users\tiany\source\repos\MauiApp2\MauiApp2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\bookStoreLogo.scale-150.png">
+      <PackagePath>bookStoreLogo.scale-150.png</PackagePath>
+      <Modified>2022-11-22T08:59:41.928</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\tiany\source\repos\MauiApp2\MauiApp2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
-      <PackagePath>appiconStoreLogo.scale-200.png</PackagePath>
-      <Modified>2022-11-22T06:56:12.848</Modified>
+    <AppxPackagedFile Include="C:\Users\tiany\source\repos\MauiApp2\MauiApp2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\bookStoreLogo.scale-200.png">
+      <PackagePath>bookStoreLogo.scale-200.png</PackagePath>
+      <Modified>2022-11-22T08:59:41.930</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\tiany\source\repos\MauiApp2\MauiApp2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
-      <PackagePath>appiconStoreLogo.scale-400.png</PackagePath>
-      <Modified>2022-11-22T06:56:12.853</Modified>
+    <AppxPackagedFile Include="C:\Users\tiany\source\repos\MauiApp2\MauiApp2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\bookStoreLogo.scale-400.png">
+      <PackagePath>bookStoreLogo.scale-400.png</PackagePath>
+      <Modified>2022-11-22T08:59:41.932</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\tiany\source\repos\MauiApp2\MauiApp2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
-      <PackagePath>appiconWideTile.scale-100.png</PackagePath>
-      <Modified>2022-11-22T06:56:12.913</Modified>
+    <AppxPackagedFile Include="C:\Users\tiany\source\repos\MauiApp2\MauiApp2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\bookWideTile.scale-100.png">
+      <PackagePath>bookWideTile.scale-100.png</PackagePath>
+      <Modified>2022-11-22T08:59:41.985</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\tiany\source\repos\MauiApp2\MauiApp2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
-      <PackagePath>appiconWideTile.scale-125.png</PackagePath>
-      <Modified>2022-11-22T06:56:12.919</Modified>
+    <AppxPackagedFile Include="C:\Users\tiany\source\repos\MauiApp2\MauiApp2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\bookWideTile.scale-125.png">
+      <PackagePath>bookWideTile.scale-125.png</PackagePath>
+      <Modified>2022-11-22T08:59:41.991</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\tiany\source\repos\MauiApp2\MauiApp2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
-      <PackagePath>appiconWideTile.scale-150.png</PackagePath>
-      <Modified>2022-11-22T06:56:12.926</Modified>
+    <AppxPackagedFile Include="C:\Users\tiany\source\repos\MauiApp2\MauiApp2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\bookWideTile.scale-150.png">
+      <PackagePath>bookWideTile.scale-150.png</PackagePath>
+      <Modified>2022-11-22T08:59:41.997</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\tiany\source\repos\MauiApp2\MauiApp2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
-      <PackagePath>appiconWideTile.scale-200.png</PackagePath>
-      <Modified>2022-11-22T06:56:12.937</Modified>
+    <AppxPackagedFile Include="C:\Users\tiany\source\repos\MauiApp2\MauiApp2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\bookWideTile.scale-200.png">
+      <PackagePath>bookWideTile.scale-200.png</PackagePath>
+      <Modified>2022-11-22T08:59:42.006</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\tiany\source\repos\MauiApp2\MauiApp2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
-      <PackagePath>appiconWideTile.scale-400.png</PackagePath>
-      <Modified>2022-11-22T06:56:12.967</Modified>
+    <AppxPackagedFile Include="C:\Users\tiany\source\repos\MauiApp2\MauiApp2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\bookWideTile.scale-400.png">
+      <PackagePath>bookWideTile.scale-400.png</PackagePath>
+      <Modified>2022-11-22T08:59:42.039</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\tiany\source\repos\MauiApp2\MauiApp2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
       <PackagePath>dotnet_bot.scale-100.png</PackagePath>
-      <Modified>2022-11-22T06:56:12.767</Modified>
+      <Modified>2022-11-22T08:59:41.870</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\tiany\source\repos\MauiApp2\MauiApp2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
       <PackagePath>dotnet_bot.scale-125.png</PackagePath>
-      <Modified>2022-11-22T06:56:12.776</Modified>
+      <Modified>2022-11-22T08:59:41.880</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\tiany\source\repos\MauiApp2\MauiApp2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
       <PackagePath>dotnet_bot.scale-150.png</PackagePath>
-      <Modified>2022-11-22T06:56:12.787</Modified>
+      <Modified>2022-11-22T08:59:41.895</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\tiany\source\repos\MauiApp2\MauiApp2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
       <PackagePath>dotnet_bot.scale-200.png</PackagePath>
-      <Modified>2022-11-22T06:56:12.803</Modified>
+      <Modified>2022-11-22T08:59:41.916</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\tiany\source\repos\MauiApp2\MauiApp2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
       <PackagePath>dotnet_bot.scale-400.png</PackagePath>
-      <Modified>2022-11-22T06:56:12.843</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\tiany\source\repos\MauiApp2\MauiApp2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\parlogo.scale-100.png">
-      <PackagePath>parlogo.scale-100.png</PackagePath>
-      <Modified>2022-11-22T06:50:10.448</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\tiany\source\repos\MauiApp2\MauiApp2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\parlogo.scale-125.png">
-      <PackagePath>parlogo.scale-125.png</PackagePath>
-      <Modified>2022-11-22T06:50:10.554</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\tiany\source\repos\MauiApp2\MauiApp2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\parlogo.scale-150.png">
-      <PackagePath>parlogo.scale-150.png</PackagePath>
-      <Modified>2022-11-22T06:50:10.716</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\tiany\source\repos\MauiApp2\MauiApp2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\parlogo.scale-200.png">
-      <PackagePath>parlogo.scale-200.png</PackagePath>
-      <Modified>2022-11-22T06:50:10.949</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\tiany\source\repos\MauiApp2\MauiApp2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\parlogo.scale-400.png">
-      <PackagePath>parlogo.scale-400.png</PackagePath>
-      <Modified>2022-11-22T06:50:11.865</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\tiany\source\repos\MauiApp2\MauiApp2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\par_logo.scale-100.png">
-      <PackagePath>par_logo.scale-100.png</PackagePath>
-      <Modified>2022-11-22T06:41:57.877</Modified>
+      <Modified>2022-11-22T08:59:41.961</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

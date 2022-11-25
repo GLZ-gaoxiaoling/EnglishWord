@@ -1,4 +1,7 @@
-﻿namespace MauiApp2;
+﻿using Microsoft.Extensions.Logging;
+using Plugin.Maui.Audio;
+
+namespace MauiApp2;
 
 public static class MauiProgram
 {
@@ -13,6 +16,8 @@ public static class MauiProgram
                 fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
                 fonts.AddFont("HWhupob.ttf", "HWhupob");
             });
+        builder.Services.AddSingleton(AudioManager.Current);
+        builder.Services.AddTransient<MainPage>();
 
 #if DEBUG
 		builder.Logging.AddDebug();

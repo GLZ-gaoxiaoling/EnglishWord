@@ -1,14 +1,17 @@
-﻿using System.Net;
+﻿using Plugin.Maui.Audio;
+using System.Net;
 using System.Text.Json;
 
 namespace MauiApp2;
 
 public partial class MainPage : ContentPage
 {
+    private readonly IAudioManager audioManager;
 
-    public MainPage()
+    public MainPage(IAudioManager audioManager)
     {
         InitializeComponent();
+        this.audioManager = audioManager;
     }
     void OnEntryCompleted(object sender, EventArgs e)
     {
@@ -40,6 +43,19 @@ public partial class MainPage : ContentPage
     {
         toolClass? toolclass = JsonSerializer.Deserialize<toolClass>(jsonStr);//反序列化json
         return $"单词:{toolclass?.word}\n音标:{toolclass?.accent}\n中文释义:{toolclass?.mean_cn}\n英文释义:{toolclass?.mean_en}\n例子:{toolclass?.sentence}\n例子翻译:{toolclass.sentence_trans}";
+    }
+
+    private void SoundBtn_Clicked(object sender, EventArgs e)
+    {
+        playsound();
+    }
+
+    private async void playsound()
+    {
+        var player = audioManager.CreatePlayer(await FileSystem.OpenAppPackageFileAsync("dictvoice.mp3"));
+        player.Play();
+        string str1 = System.Environment.CurrentDirectory;
+        File.Delete(str1+"\Raw\dictvoice.mp3");
     }
 }
 public class toolClass

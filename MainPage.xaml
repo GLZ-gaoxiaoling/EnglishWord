@@ -55,6 +55,12 @@
                 SemanticProperties.Hint="a button to get which word you want"
                 Clicked="OnCounterClicked"
                 FlexLayout.AlignSelf="Center" />
+            <Button
+                x:Name="SoundBtn"
+                Text="获取发音"
+                SemanticProperties.Hint="a button to get sound"
+                Clicked="SoundBtn_Clicked"
+                FlexLayout.AlignSelf="Center" />
         </FlexLayout>
     </ScrollView>
 
